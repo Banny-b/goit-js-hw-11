@@ -70,7 +70,7 @@ function onLoadMoreBtn() {
 };
 
 function alertImagesFound(data) {
-  Notiflix.Notify.success(`We found ${data.totalHits} images.`);
+  Notiflix.Notify.success(`Hooray! We found ${data.totalHits} images.`);
 };
 
 function alertNoEmptySearch() {
